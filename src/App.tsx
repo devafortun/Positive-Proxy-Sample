@@ -4,7 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Issues } from './pages/Issues';
 import { Proposals } from './pages/Proposals';
-// import { Proxies } from './pages/Proxies';
+import { Proxies } from './pages/Proxies';
 import { Dashboard } from './pages/Dashboard';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/issues" element={<Issues />} />
             <Route path="/proposals" element={<Proposals />} />
-            {/* <Route path="/proxies" element={<Proxies />} /> */}
+            <Route path="/proxies" element={<Proxies />} />
             <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </main>
