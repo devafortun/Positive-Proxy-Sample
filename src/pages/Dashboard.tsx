@@ -70,7 +70,7 @@ export function Dashboard() {
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-md">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">Your Proxies</h2>
+          <h2 className="text-lg font-semibold text-gray-900 mb-4">Proxies</h2>
           <div className="space-y-4">
             <div className="flex items-center justify-between py-2 border-b">
               <span className="text-gray-600">Dr. Emily Watson</span>

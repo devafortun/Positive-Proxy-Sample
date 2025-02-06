@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Issues } from './pages/Issues';
-// import { Proposals } from './pages/Proposals';
+import { Proposals } from './pages/Proposals';
 // import { Proxies } from './pages/Proxies';
 import { Dashboard } from './pages/Dashboard';
 
@@ -16,8 +16,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/issues" element={<Issues />} />
-            {/* <Route path="/proposals" element={<Proposals />} />
-            <Route path="/proxies" element={<Proxies />} /> */}
+            <Route path="/proposals" element={<Proposals />} />
+            {/* <Route path="/proxies" element={<Proxies />} /> */}
             <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </main>
