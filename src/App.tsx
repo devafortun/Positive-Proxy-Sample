@@ -5,7 +5,7 @@ import { Navbar } from './components/Navbar';
 // import { Issues } from './pages/Issues';
 // import { Proposals } from './pages/Proposals';
 // import { Proxies } from './pages/Proxies';
-// import { Dashboard } from './pages/Dashboard';
+import { Dashboard } from './pages/Dashboard';
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
             {/* <Route path="/" element={<Home />} />
             <Route path="/issues" element={<Issues />} />
             <Route path="/proposals" element={<Proposals />} />
-            <Route path="/proxies" element={<Proxies />} />
-            <Route path="/dashboard" element={<Dashboard />} /> */}
+            <Route path="/proxies" element={<Proxies />} /> */}
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </main>
       </div>
