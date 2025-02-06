@@ -53,12 +53,38 @@ export function Dashboard() {
       <div className="grid md:grid-cols-2 gap-6">
         <div className="bg-white p-6 rounded-xl shadow-md">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Recent Activity</h2>
-         
+          <div className="space-y-4">
+            <div className="flex items-center justify-between py-2 border-b">
+              <span className="text-gray-600">Voted on Urban Forest Initiative</span>
+              <span className="text-sm text-gray-500">2h ago</span>
+            </div>
+            <div className="flex items-center justify-between py-2 border-b">
+              <span className="text-gray-600">Proxy assigned for Transportation</span>
+              <span className="text-sm text-gray-500">5h ago</span>
+            </div>
+            <div className="flex items-center justify-between py-2">
+              <span className="text-gray-600">Commented on Housing Proposal</span>
+              <span className="text-sm text-gray-500">1d ago</span>
+            </div>
+          </div>
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-md">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Your Proxies</h2>
-
+          <div className="space-y-4">
+            <div className="flex items-center justify-between py-2 border-b">
+              <span className="text-gray-600">Dr. Emily Watson</span>
+              <span className="text-sm text-emerald-600">Environmental Policy</span>
+            </div>
+            <div className="flex items-center justify-between py-2 border-b">
+              <span className="text-gray-600">Prof. James Martinez</span>
+              <span className="text-sm text-emerald-600">Infrastructure</span>
+            </div>
+            <div className="flex items-center justify-between py-2">
+              <span className="text-gray-600">Dr. Sarah Chen</span>
+              <span className="text-sm text-emerald-600">Urban Planning</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
